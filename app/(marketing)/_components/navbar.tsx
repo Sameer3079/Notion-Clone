@@ -26,7 +26,6 @@ export const Navbar = () => {
         className="md:ml-auto md:justify-end justify-between
       w-full flex items-center gap-x-2"
       >
-        {/* https://youtu.be/0OaDyjB9Ib8?t=5963 */}
         {isLoading && <Spinner />}
         {!isAuthenticated && !isLoading && (
           <>
